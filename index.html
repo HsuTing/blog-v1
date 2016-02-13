@@ -1,0 +1,162 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="windows-Target" content="_top">
+
+    <meta name="keywords" content="HsuTing blog" />
+    <meta name="description" content="This is HsuTing blog" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="all" />
+    <meta name="author" content="HsuTing" />
+    <meta name="copyright" CONTENT="Copyright (c) 2016 HsuTing" />
+
+<!--
+    <link rel="apple-touch-icon" sizes="57x57" href="./img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="./img/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="./img/favicons/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="./img/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="./img/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="./img/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="./img/favicons/manifest.json">
+    <link rel="mask-icon" href="./img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="./img/favicons/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+--!>
+
+    <title>HsuTing Blog</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.1/material.grey-deep_purple.min.css" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <script src="https://code.getmdl.io/1.1.1/material.min.js" defer></script>
+  </head>
+
+  <!-- add css --!>
+  <style>
+    main {
+      margin-top: -64px;
+    }
+    @media screen and (max-width: 1024px) {
+      main {
+        margin-top: 0px;
+      }
+    }
+
+    .page-content {
+      padding: 50px 0px 50px 0px;
+    }
+    .mdl-spinner {
+      width: 150px;
+      height: 150px;
+    }
+
+    .center {
+      display: flex;
+      justify-content: center;
+    }
+    .home-name__phone-padding {
+      padding: 20px 50px 20px 50px;
+    }
+    @media screen and (max-width: 479px) {
+      .home-name__phone-padding {
+        padding: 20px 20px 20px 20px;
+      }
+    }
+
+    .body__hide {
+      opacity: 0;
+    }
+    @keyframes body__show-animation {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .body__show {
+      opacity: 1;
+      animation: body__show-animation 1s cubic-bezier(0.7, 0, 0.3, 1);
+    }
+  </style>
+
+
+  <!-- add class after mal is onload --!>
+  <script>
+    var initInterval = setInterval(function() {
+      if(document.querySelector('.mdl-layout__container') != null) {
+        clearInterval(initInterval);
+        document.querySelector('body').className += ' body__show';
+      }   
+    }, 10);
+  </script>
+
+  <body class="mdl-layout mdl-js-layout mdl-layout--no-desktop-drawer-button body__hide">
+    <header class="mdl-layout__header mdl-layout__header--transparent">
+      <div class="mdl-layout__header-row">
+        <div class="mdl-layout-spacer"></div>
+        <div id="list-header"></div>
+      </div>
+    </header>
+
+    <div class="mdl-layout__drawer">
+      <div id="list-menu"></div>
+    </div>
+
+    <main class="mdl-layout__content mdl-color--grey-50">
+      <!-- title --!>
+      <div id="title-page"
+           class="page-content"
+           style="background: url('./img/title-bg.jpg') center / cover;
+                  height: 50vh;
+                  overflow: hidden;
+                  padding: 0px;"
+      >
+        <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+          <div class="mdl-cell mdl-cell--8-col center"
+               style="flex-direction: row;
+                      height: calc(100% - 16px);"
+          >
+            <div class="center" style="flex-direction: column;">
+              <h6 class="mdl-typography--text-center mdl-typography--display-1 mdl-color-text--white home-name__phone-padding"
+                  style="width: 150px;
+                         border: white solid 7px;
+                         border-radius: 3px;
+                         background-color: rgba(255, 255, 255, 0.1);
+                         letter-spacing: 0em;"
+              >HSUTING</h6>
+              <p class="mdl-typography--text-center mdl-typography--body-1 mdl-typography--body-1-color-contrast mdl-color-text--grey-200"
+                  style="position: relative; top: -10px;"
+              >A Website Engineer<p>
+            </div>
+          </div>
+          <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+        </div>
+      </div>
+
+      <!-- body --!>
+      <div class="page-content">
+        <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--2-col mdl-cell--1-col-tablet mdl-cell--hide-phone"></div>
+          <div id="main-part" class="mdl-cell mdl-cell--8-col mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+            <div class="center" style="flex-direction: row;">
+              <div class="mdl-spinner mdl-spinner--single-color mdl-js-spinner is-active"></div>
+            </div>
+          </div>
+          <div class="mdl-cell mdl-cell--2-col mdl-cell--1-col-tablet mdl-cell--hide-phone"></div>
+        </div>
+      </div>
+    </main>
+  </body>
+
+  <script src="./dist/common.min.js" defer></script>
+  <script src="./dist/index.min.js" defer></script>
+</html>
