@@ -2,7 +2,7 @@
 
 let data = [
   {
-    'url': '#',
+    'url': 'http://hsuting.github.io/blog/',
     'label': 'HOME'
   },
   {
