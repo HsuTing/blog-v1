@@ -7,7 +7,7 @@ export default class Home extends React.Component {
     return (
       <div>
         <p className="mdl-typography--body-1 mdl-color-text--grey-800">
-          This blog is used to record some information about my projects and some problems which I encounter and solve. Maybe you are searching some problems as I encounter. Therefore, I write it in my blog and share it to everyone which needs it. By the way, This blog is using github to set up. As a result, if you are interested in my code, you can see <a href="https://github.com/HsuTing/blog" style={{textDecoration: "none", color: "inherit", fontWeight: "bold"}}>here</a>.
+          This blog is used to record some information about my projects and some problems which I encounter and solve. Maybe you are searching some problems as I encounter. Therefore, I write it in my blog and share it to everyone which needs it. By the way, I use github to set up this blog. As a result, if you are interested in my code, you can see <a href="https://github.com/HsuTing/blog" style={{textDecoration: "none", color: "inherit", fontWeight: "bold"}}>here</a>.
         </p>
 
         <ul className="mdl-list">
