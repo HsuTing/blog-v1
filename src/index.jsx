@@ -12,7 +12,7 @@ import List from './list';
   let id = location.search.replace('?no=', '');
 
   GetJson('./data/list.json', (data_list) => {
-    ReactDOM.render(<List style={"mdl-color-text--grey-600"} data={ListData} />, document.getElementById('list-header'));
+    ReactDOM.render(<List style={"mdl-color-text--grey-800"} data={ListData} />, document.getElementById('list-header'));
     ReactDOM.render(<List data={ListData} />, document.getElementById('list-menu'));
 
     if(data_list[id] != undefined) {
@@ -32,7 +32,15 @@ import List from './list';
         alert('You can not connect to server.');
       });
     }
-
+    else {
+      require.ensure([], () => {
+        let Home = require('./home').default; 
+        ReactDOM.render(
+          <Home data={data_list}
+          />, document.getElementById('main-part')
+        );
+      });
+    }
   }, () => {
     alert('You can not connect to server.');
   });
