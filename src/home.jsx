@@ -15,7 +15,7 @@ export default class Home extends React.Component {
           return (
             <li key={i} className="mdl-list__item mdl-list__item--two-line">
               <span className="mdl-list__item-primary-content">
-                <a href={"./?no=" + i} style={{textDecoration: "none"}}>
+                <a href={"./?no=" + ((this.props.data.length - 1) - i)} style={{textDecoration: "none"}}>
                   <i className="material-icons mdl-list__item-avatar mdl-color-text--grey-800"
                      style={{fontSize: "20px",
                              padding: "10px",

@@ -1,0 +1,31 @@
+[ 
+  "If you need to get json and you do not want to use <strong>jquery</strong>, you can add this funtion in your code.",
+  {"code": [
+
+"function getJson(url, funct, err_funct) => {",
+"  var xmlhttp = new XMLHttpRequest();",
+"  var data = '';",
+"",
+"  xmlhttp.onreadystatechange = () => {",
+"    if(xmlhttp.readyState == 4) {",
+"      if(xmlhttp.status == 200) {",
+"        data = JSON.parse(xmlhttp.responseText);",
+"        if(funct != undefined) {",
+"          funct(data);",
+"        }",
+"      }",
+"      else {",
+"        if(err_funct != undefined) {",
+"          err_funct(xmlhttp.status);",
+"        }",
+"      }",
+"    }",
+"  };",
+"",
+"  xmlhttp.open('GET', url, true);",
+"  xmlhttp.send();",
+"};"
+
+  ]},
+  "Function <strong>getJSON</strong> in <strong>jquery</strong> is convenience, but I do not need other function in <strong>jquery</strong>. As a result, I use this function to let me not need to include <strong>jquery</strong> in my website."
+]

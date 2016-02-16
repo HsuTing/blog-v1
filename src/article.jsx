@@ -2,6 +2,8 @@
 
 import React from 'react';
 
+import Code from './article_component/code';
+
 export default class Article extends React.Component {
   render() {
     return (
@@ -12,6 +14,8 @@ export default class Article extends React.Component {
           if(typeof(d) == 'object') {
             let label = Object.keys(d)[0];
             switch(label) {
+              case "code":
+                return (<Code key={i} data={d.code} />);
               default:
                 return null;
             }
