@@ -34,6 +34,7 @@ module.exports = {
         extensions: ['', '.js', '.jsx', '.css']
     },
     plugins: [
-        new webpack.optimize.CommonsChunkPlugin('common', 'common.min.js')
+        new webpack.optimize.CommonsChunkPlugin('common', 'common.min.js'),
+        new webpack.optimize.UglifyJsPlugin({minimize: true})
     ]
 }
