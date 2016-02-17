@@ -5,19 +5,23 @@ import React from 'react';
 export default class Code extends React.Component {
   render() {
     return (
-      <pre style={{border: "#757575 1px solid",
+      <div style={{border: "#757575 1px solid",
                    padding: "20px",
-                   overflow: "auto"}}
+                   marginBottom: "24px"}}
       >
-        <code>
-        {this.props.data.map((d, i) => {
-          return (
-            <span key={i}
-            >{d + '\n'}</span>
-          );
-        })}
-        </code>
-      </pre>
+        <pre style={{overflow: "auto",
+                     margin: "0px"}}
+        >
+          <code>
+          {this.props.data.map((d, i) => {
+            return (
+              <span key={i}
+              >{d + '\n'}</span>
+            );
+          })}
+          </code>
+        </pre>
+      </div>
     );
   }
 };

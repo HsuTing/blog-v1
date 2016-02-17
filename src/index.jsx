@@ -3,6 +3,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import Style from './index_component/style';
 import GetJson from './get_json';
 
 import ListData from './list_component/list_data';

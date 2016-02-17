@@ -3,6 +3,7 @@
 import React from 'react';
 
 import Code from './article_component/code';
+import List from './article_component/list';
 
 export default class Article extends React.Component {
   render() {
@@ -16,6 +17,8 @@ export default class Article extends React.Component {
             switch(label) {
               case "code":
                 return (<Code key={i} data={d.code} />);
+              case "list":
+                return (<List key={i} data={d.list} />);
               default:
                 return null;
             }
