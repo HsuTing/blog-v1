@@ -2,11 +2,11 @@
   "If you need to get json and you do not want to use <strong>jquery</strong>, you can add this funtion in your code.",
   {"code": [
 
-"function getJson(url, funct, err_funct) => {",
+"function getJson(url, funct, err_funct) {",
 "  var xmlhttp = new XMLHttpRequest();",
 "  var data = '';",
 "",
-"  xmlhttp.onreadystatechange = () => {",
+"  xmlhttp.onreadystatechange = function() {",
 "    if(xmlhttp.readyState == 4) {",
 "      if(xmlhttp.status == 200) {",
 "        data = JSON.parse(xmlhttp.responseText);",
