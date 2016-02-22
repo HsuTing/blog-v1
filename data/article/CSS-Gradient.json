@@ -1,0 +1,77 @@
+[
+  "Every gradient function needs two color at least, and then can set a percentage at this color. Here are two main type: <strong>linear</strong> and <strong>radial</strong>. One is gradient from edge, and another is from center. You can check whether browsers support this property from <a href='http://caniuse.com/#search=gradient' class='link'>here</a>.",
+  "",
+  "Example 1:",
+  "<div style='width: 100%; height: 100px; background: linear-gradient(black, white);'></div>",
+  {"code": [
+"#gradient {",
+"  background: linear-gradient(black, white);",
+"}"
+  ]},
+  "",
+  "Example 2:",
+  "<div style='width: 100%; height: 100px; background: linear-gradient(to right, black, white);'></div>",
+  {"code": [
+"#gradient {",
+"  background: linear-gradient(to right, black, white);",
+"}"
+  ]},
+  "You can use <strong>to right</strong>, <strong>to left</strong>, <strong>to top</strong>, <strong>to bottom</strong> or <strong>to right top</strong>, <strong>to right bottom</strong>, and so on.",
+  "",
+  "Example 3(use angle):",
+  "<div style='width: 100%; height: 100px; background: linear-gradient(20deg, black, white);'></div>",
+  {"code": [
+"#gradient {",
+"  background: linear-gradient(20deg, black, white);",
+"}"
+  ]},
+  "",
+  "Example 4(multiple color):",
+  "<div style='width: 100%; height: 100px; background: linear-gradient(20deg, black, white, grey);'></div>",
+  {"code": [
+"#gradient {",
+"  background: linear-gradient(20deg, black, white, grey);",
+"}"
+  ]},
+  "",
+  "Example 5(repeat):",
+  "<div style='width: 100%; height: 100px; background: repeating-linear-gradient(20deg, black 10%, white 10%, grey 20%);'></div>",
+  {"code": [
+"#gradient {",
+"  background: repeating-linear-gradient(20deg, black 10%, white 10%, grey 20%);",
+"}"
+  ]},
+  "",
+  "Example 6(radial):",
+  "<div style='width: 100%; height: 100px; background: radial-gradient(black, white, grey);'></div>",
+  {"code": [
+"#gradient {",
+"  background: radial-gradient(black, white, grey);",
+"}"
+  ]},
+  "Gradient from center.",
+  "",
+  "Example 7(circle):",
+  "<div style='width: 100%; height: 100px; background: radial-gradient(circle, black, white, grey);'></div>",
+  {"code": [
+"#gradient {",
+"  background: radial-gradient(circle, black, white, grey);",
+"}"
+  ]},
+  "",
+  "Example 8(define size):",
+  "<div style='width: 100%; height: 100px; background: radial-gradient(20% 40%, black, white, grey);'></div>",
+  {"code": [
+"#gradient {",
+"  background: radial-gradient(20% 40%, black, white, grey);",
+"}"
+  ]},
+  "",
+  "Example 9(repeat):",
+  "<div style='width: 100%; height: 100px; background: repeating-radial-gradient(black 10%, white 20%, grey 10%);'></div>",
+  {"code": [
+"#gradient {",
+"  background: repeating-radial-gradient(black 10%, white 20%, grey 10%);",
+"}"
+  ]}
+]
