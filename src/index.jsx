@@ -30,6 +30,7 @@ import List from './list';
             <Article title={data_list[id].title}
                      date={data_list[id].date}
                      article={data_article}
+                     search={location.search}
             />, document.getElementById('main-part')
           );
         });

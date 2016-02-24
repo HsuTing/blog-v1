@@ -31,6 +31,13 @@ export default class Article extends React.Component {
             ></p>
           );
         })}
+
+        <div className="fb-comments"
+             data-href={"http://hsuting.github.io/blog/" + this.props.search}
+             data-width="100%"
+             data-height="200px"
+             data-numposts="5"
+        ></div>
       </div>
     );
   }
