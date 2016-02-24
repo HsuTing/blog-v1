@@ -32,7 +32,10 @@ export default class Article extends React.Component {
           );
         })}
 
+        <br/><br/><br/><br/><br/>
+        <div id="fb-root"></div>
         <div className="fb-comments"
+             data-colorscheme="dark"
              data-href={"http://hsuting.github.io/blog/" + this.props.search}
              data-width="100%"
              data-numposts="5"
