@@ -1,5 +1,4 @@
 [ 
-  "If you need to get json and you do not want to use <strong>jquery</strong>, you can add this funtion in your code.",
   {"code": [
 
 "function getJson(url, funct, err_funct) {",

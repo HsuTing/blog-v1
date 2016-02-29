@@ -2,6 +2,7 @@
 
 import React from 'react';
 
+import Title from './title';
 import Code from './article_component/code';
 import List from './article_component/list';
 
@@ -9,8 +10,8 @@ export default class Article extends React.Component {
   render() {
     return (
       <div>
-        <h3 className="mdl-typography--display-2">{this.props.title}</h3>
-        <h6 className="mdl-typography--title mdl-color-text--grey-400">{this.props.date}</h6>
+        <Title date={this.props.date} title={this.props.title} keyword={this.props.keyword} text={this.props.text} />
+
         {this.props.article.map((d, i) => {
           if(typeof(d) == 'object') {
             let label = Object.keys(d)[0];
@@ -31,15 +32,6 @@ export default class Article extends React.Component {
             ></p>
           );
         })}
-
-        <br/><br/><br/><br/><br/>
-        <div id="fb-root"></div>
-        <div className="fb-comments"
-             data-colorscheme="dark"
-             data-href={"http://hsuting.github.io/blog/" + this.props.search}
-             data-width="100%"
-             data-numposts="5"
-        ></div>
       </div>
     );
   }

@@ -29,6 +29,8 @@ import List from './list';
           ReactDOM.render(
             <Article title={data_list[id].title}
                      date={data_list[id].date}
+                     keyword={data_list[id].keyword}
+                     text={data_list[id].text}
                      article={data_article}
                      search={location.search}
             />, document.getElementById('main-part')

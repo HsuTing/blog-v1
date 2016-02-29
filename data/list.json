@@ -1,7 +1,32 @@
 [
-  {"date": "Feb 22, 2016", "title": "Check whether a property is supported from browsers", "keyword": "css,browser,support,style"},
-  {"date": "Feb 22, 2016", "title": "CSS Gradient", "keyword": "css,gradient"},
-  {"date": "Feb 17, 2016", "title": "About meta tag", "keyword": "meta"},
-  {"date": "Feb 16, 2016", "title": "Get json without using jquery", "keyword": "javascript,js,jquery,json,ajax"},
-  {"date": "Feb 15, 2016", "title": "Wellcom to my blog", "keyword": "blog"}
+  {
+    "date": "Feb 22, 2016",
+    "title": "Check whether a property is supported from browsers",
+    "keyword": "css, browser, support, style",
+    "text": "Here is a website named <a href='http://caniuse.com/' class='link'>http://caniuse.com/</a>. You only need to key a name of property to search, and you can check whether this property is supported from browsers."
+  },
+  {
+    "date": "Feb 22, 2016",
+    "title": "CSS Gradient",
+    "keyword": "css, gradient",
+    "text": "Every gradient function needs two color at least, and then can set a percentage at this color. Here are two main type: <strong>linear</strong> and <strong>radial</strong>. One is gradient from edge, and another is from center. You can check whether browsers support this property from <a href='http://caniuse.com/#search=gradient' class='link'>here</a>."
+  },
+  {
+    "date": "Feb 17, 2016",
+    "title": "About meta tag",
+    "keyword": "meta",
+    "text": "Here are some <strong>meta</strong> of website that I use."
+  },
+  {
+    "date": "Feb 16, 2016",
+    "title": "Get json without using jquery",
+    "keyword": "javascript, js, jquery, json, ajax",
+    "text": "If you need to get json and you do not want to use <strong>jquery</strong>, you can see this article."
+  },
+  {
+    "date": "Feb 15, 2016",
+    "title": "Wellcom to my blog",
+    "keyword": "blog",
+    "text": "Hi, everyone! This is my first article in my blog. This blog is used to record some information about my projects and some problemis which I encounter and solve. So, I hope you can find some useful information to you."
+  }
 ]
