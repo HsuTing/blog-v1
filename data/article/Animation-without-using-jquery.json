@@ -1,0 +1,23 @@
+[
+  {"code": [
+"function animation() {",
+"  var now_position = document.querySelector('main').scrollTop;",
+"  var sec = 0.5;",
+"  var fps = 60;",
+"  var per_move = (now_position - 0) / (sec * fps);",
+"",
+"  var interval = setInterval(() => {",
+"    var next_position = document.querySelector('main').scrollTop - per_move;",
+"    if(next_position <= 0) {",
+"      next_position = 0;",
+"    }",
+"",
+"    document.querySelector('main').scrollTop = next_position;",
+"    if(next_position == 0) {",
+"      clearInterval(interval);",
+"    }",
+"  }, (1000 / fps));",
+"}"
+  ]},
+  "This code is an example for a button controlling page to top, You just need to count every move at every <strong>fps</strong>. At the end, you need to clear this interval function. Otherwise, function will do animation all time."
+]

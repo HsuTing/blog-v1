@@ -1,5 +1,11 @@
 [
   {
+    "date": "Mar 2, 2016",
+    "title": "Animation without using jquery",
+    "keyword": "javascript, js, jquery, animation",
+    "text": "I use javascript to do animation without jquery. I do not want to include jquery in my website jsut for doing animation. I may not use other functions in jquery. As a result, using jquery in website is not needed."
+  },
+  {
     "date": "Feb 22, 2016",
     "title": "Check whether a property is supported from browsers",
     "keyword": "css, browser, support, style",
