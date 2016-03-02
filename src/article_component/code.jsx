@@ -5,7 +5,8 @@ import React from 'react';
 export default class Code extends React.Component {
   render() {
     return (
-      <div style={{border: "#757575 1px solid",
+      <div className="mdl-color--grey-200"
+           style={{border: "white 1px solid",
                    padding: "20px",
                    marginBottom: "24px"}}
       >
