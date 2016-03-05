@@ -6,7 +6,7 @@
 "  var fps = 60;",
 "  var per_move = (now_position - 0) / (sec * fps);",
 "",
-"  var interval = setInterval(() => {",
+"  var interval = setInterval(function() {",
 "    var next_position = document.querySelector('main').scrollTop - per_move;",
 "    if(next_position <= 0) {",
 "      next_position = 0;",
