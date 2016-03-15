@@ -38,7 +38,7 @@
 "<meta name=\"theme-color\" content=\"#ffffff\">"
 
   ]},
-  "I use this <a href='http://realfavicongenerator.net/' class='link'>website</a> to make my icon. This website is easy to use. You jsut need to upload your picture and copy the code from this website.",
+  "I use this <a href='http://realfavicongenerator.net/'>website</a> to make my icon. This website is easy to use. You jsut need to upload your picture and copy the code from this website.",
   "Sometime, I need to set <strong>Facebook Share Dialog</strong>. I will use this:",
   {"code": [
 
@@ -52,5 +52,5 @@
 "<meta property=\"og:site_name\" content=\"HsuTing\" />"
 
   ]},
-  "Another property maybe need to set is <strong>fb:app_id</strong>. If you need to set it, you need to go to <a href='https://developers.facebook.com/' class='link'>Facebook developer</a>, add a new app and you will get a <strong>app_id</strong>"
+  "Another property maybe need to set is <strong>fb:app_id</strong>. If you need to set it, you need to go to <a href='https://developers.facebook.com/'>Facebook developer</a>, add a new app and you will get a <strong>app_id</strong>"
 ]

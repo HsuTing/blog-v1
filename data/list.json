@@ -9,13 +9,13 @@
     "date": "Feb 22, 2016",
     "title": "Check whether a property is supported from browsers",
     "keyword": "css, browser, support, style",
-    "text": "Here is a website named <a href='http://caniuse.com/' class='link'>http://caniuse.com/</a>. You only need to key a name of property to search, and you can check whether this property is supported from browsers."
+    "text": "Here is a website named <a href='http://caniuse.com/'>http://caniuse.com/</a>. You only need to key a name of property to search, and you can check whether this property is supported from browsers."
   },
   {
     "date": "Feb 22, 2016",
     "title": "CSS Gradient",
     "keyword": "css, gradient",
-    "text": "Every gradient function needs two color at least, and then can set a percentage at this color. Here are two main type: <strong>linear</strong> and <strong>radial</strong>. One is gradient from edge, and another is from center. You can check whether browsers support this property from <a href='http://caniuse.com/#search=gradient' class='link'>here</a>."
+    "text": "Every gradient function needs two color at least, and then can set a percentage at this color. Here are two main type: <strong>linear</strong> and <strong>radial</strong>. One is gradient from edge, and another is from center. You can check whether browsers support this property from <a href='http://caniuse.com/#search=gradient'>here</a>."
   },
   {
     "date": "Feb 17, 2016",
