@@ -25,7 +25,7 @@ export default class Home extends React.Component {
     return (
       <div>
         <p className="mdl-typography--body-1 mdl-color-text--grey-800">
-          This blog is used to record some information about my projects and some problems which I encounter and solve. Maybe you are searching some problems as I encounter. Therefore, I write it in my blog and share it to everyone which needs it. By the way, I use github to set up this blog. As a result, if you are interested in my code, you can see <a href="https://github.com/HsuTing/blog">here</a>. Finally, if you want to learn more about me, you can see <a href="http://hsuting.github.io/">my personal website</a>.
+          This blog is used to record information about my projects, and some problems which I encounter and solve. I've decided to keep a blog to help out anyone who runs into the same problems that I did. The blog itself is setup using github, so if you are interested in my code, you can see some <a href="https://github.com/HsuTing/blog">here</a>. Finally, if you want to learn more about me, you can see <a href="http://hsuting.github.io/">my personal website</a>.
         </p>
 
         <div onChange={this._search.bind(this)}>

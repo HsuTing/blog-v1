@@ -19,5 +19,5 @@
 "  }, (1000 / fps));",
 "}"
   ]},
-  "This code is an example for a button controlling page to top, You just need to count every move at every <strong>fps</strong>. At the end, you need to clear this interval function. Otherwise, function will do animation all time."
+  "This code is an example for a button that scrolls to page top. You need to count every move at every <strong>fps</strong>. Finally, you need to clear this interval function. Otherwise, the function will do the animation at all times."
 ]

@@ -3,31 +3,31 @@
     "date": "Mar 2, 2016",
     "title": "Animation without using jquery",
     "keyword": "javascript, js, jquery, animation",
-    "text": "I use javascript to do animation without jquery. I do not want to include jquery in my website jsut for doing animation. I may not use other functions in jquery. As a result, using jquery in website is not needed."
+    "text": "I used javascript to do animation without jquery. I would not be using any other jquery functions, and do not want to include jquery in my website just for doing animation."
   },
   {
     "date": "Feb 22, 2016",
     "title": "Check whether a property is supported from browsers",
     "keyword": "css, browser, support, style",
-    "text": "Here is a website named <a href='http://caniuse.com/'>http://caniuse.com/</a>. You only need to key a name of property to search, and you can check whether this property is supported from browsers."
+    "text": "By searching for the name of a property on the website <a href='http://caniuse.com/'>http://caniuse.com/</a> you can check whether or not this property is supported from browsers."
   },
   {
     "date": "Feb 22, 2016",
     "title": "CSS Gradient",
     "keyword": "css, gradient",
-    "text": "Every gradient function needs two color at least, and then can set a percentage at this color. Here are two main type: <strong>linear</strong> and <strong>radial</strong>. One is gradient from edge, and another is from center. You can check whether browsers support this property from <a href='http://caniuse.com/#search=gradient'>here</a>."
+    "text": "Every gradient function needs at least two colors, and then a set percentage of the colors. The two main types are <strong>linear</strong> and <strong>radial</strong>. One is a gradient from the edge, and the other is from the center. You can check whether or not browsers support this property <a href='http://caniuse.com/#search=gradient'>here</a>."
   },
   {
     "date": "Feb 17, 2016",
-    "title": "About meta tag",
+    "title": "About meta tags",
     "keyword": "meta",
-    "text": "Here are some <strong>meta</strong> of website that I use."
+    "text": "Here are some <strong>meta tags</strong> from websites that I use."
   },
   {
     "date": "Feb 16, 2016",
     "title": "Get json without using jquery",
     "keyword": "javascript, js, jquery, json, ajax",
-    "text": "If you need to get json and you do not want to use <strong>jquery</strong>, you can see this article."
+    "text": "If you need json but you do not want to use <strong>jquery</strong>, here is what I do."
   },
   {
     "date": "Feb 15, 2016",

@@ -26,5 +26,5 @@
 "};"
 
   ]},
-  "Function <strong>getJSON</strong> in <strong>jquery</strong> is convenience, but I do not need other function in <strong>jquery</strong>. As a result, I use this function to let me not need to include <strong>jquery</strong> in my website."
+  "The function <strong>getJSON</strong> in jquery is convenient, but I do not need other <strong>jquery</strong> functions. Hence, I use this function so I don't have to include <strong>jquery</strong> in my website."
 ]

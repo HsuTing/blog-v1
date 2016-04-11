@@ -14,7 +14,7 @@
 "<meta name=\"copyright\" CONTENT=\"Copyright (c) 2016 HsuTing\" />"
 
   ]},
-  "Other settings about icons is here:",
+  "Some other settings for icons:",
   {"code": [
 
 "<link rel=\"apple-touch-icon\" sizes=\"57x57\" href=\"http://hsuting.github.io/blog/img/favicons/apple-touch-icon-57x57.png\">",
@@ -38,8 +38,8 @@
 "<meta name=\"theme-color\" content=\"#ffffff\">"
 
   ]},
-  "I use this <a href='http://realfavicongenerator.net/'>website</a> to make my icon. This website is easy to use. You jsut need to upload your picture and copy the code from this website.",
-  "Sometime, I need to set <strong>Facebook Share Dialog</strong>. I will use this:",
+  "I use this <a href='http://realfavicongenerator.net/'>website</a> to make my icons. It is very easy to use; simply upload pictures and copy the code",
+  "Sometimes, I need to set up a <strong>Facebook Share Dialog</strong>. I will use this:",
   {"code": [
 
 "<meta property=\"og:description\" content=\"Hi, I am HsuTing. This is my blog. If you want to learn more about me, you can see http://hsuting.github.io/.\" />",
@@ -52,5 +52,5 @@
 "<meta property=\"og:site_name\" content=\"HsuTing\" />"
 
   ]},
-  "Another property maybe need to set is <strong>fb:app_id</strong>. If you need to set it, you need to go to <a href='https://developers.facebook.com/'>Facebook developer</a>, add a new app and you will get a <strong>app_id</strong>"
+  "Another property that may need to be set is <strong>fb:app_id</strong>. If you need it, you need to go to <a href='https://developers.facebook.com/'>Facebook developer</a>, add a new app and you will get an <strong>app_id</strong>."
 ]
