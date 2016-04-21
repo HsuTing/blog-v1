@@ -1,5 +1,5 @@
 [
-  "Here is an example.",
+  "Here is an example. I use <strong>ES6</strong> to write this.",
   {"code": [
 "let nodes = document.querySelectorAll('div');",
 "Array.from(nodes).forEach((node) => {",
