@@ -1,0 +1,7 @@
+[
+  "Here is an example. In this way, you can get height, but you need to use those in <strong>window.onload</strong>. Otherwise, you may get some problem.",
+  {"code": [
+"var element = document.querySelector('.element');",
+"window.getComputedStyle(element).height;"
+  ]}
+]
