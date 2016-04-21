@@ -1,0 +1,9 @@
+[
+  "Here is an example.",
+  {"code": [
+"let nodes = document.querySelectorAll('div');",
+"Array.from(nodes).forEach((node) => {",
+" console.log(node);",
+"});"
+  ]}
+]
