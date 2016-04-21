@@ -1,5 +1,11 @@
 [
   {
+    "date": "Apr 22, 2016",
+    "title": "Get array from document.querySelectorAll",
+    "keyword": "es6, js ,javascript, querySelectorAll",
+    "text": "I use document.querySelectorAll to find <strong>DOMs</strong>. You can use for loop to do something with those DOM, but use <strong>Array</strong> is good way."
+  },
+  {
     "date": "Mar 2, 2016",
     "title": "Animation without using jquery",
     "keyword": "javascript, js, jquery, animation",
