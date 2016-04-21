@@ -1,9 +1,15 @@
 [
   {
     "date": "Apr 22, 2016",
+    "title": "Get style without jQuery",
+    "keyword": "es6, js ,javascript, jquery",
+    "text": "You can use <strong>document.querySelector('#id').style</strong> to get some style. This way has a problem that you can not get a style which is set by <strong>class</strong>. Therefore, <strong>window.getComputedStyle(element)</strong> is a good way, and <strong>element</strong> is a <strong>DOM</strong>."
+  },
+  {
+    "date": "Apr 22, 2016",
     "title": "Get array from querySelectorAll",
     "keyword": "es6, js ,javascript, querySelectorAll",
-    "text": "I use document.querySelectorAll to find <strong>DOMs</strong>. You can use for loop to do something with those DOM, but use <strong>Array</strong> is good way."
+    "text": "I use <strong>document.querySelectorAll</strong> to find <strong>DOMs</strong>. You can use for loop to do something with those DOM, but use <strong>Array</strong> is good way."
   },
   {
     "date": "Mar 2, 2016",
