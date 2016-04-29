@@ -1,5 +1,11 @@
 [
   {
+    "date": "Apr 29, 2016",
+    "title": "Lazy load CSS using javascript",
+    "keyword": "js ,javascript, css, defer",
+    "text": "Here is an easy code to lazy load css."
+  },
+  {
     "date": "Apr 22, 2016",
     "title": "Get style without jQuery",
     "keyword": "es6, js ,javascript, jquery",
