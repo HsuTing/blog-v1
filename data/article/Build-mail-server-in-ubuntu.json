@@ -12,14 +12,14 @@
 "protocols = pop3",
 "pop3_uidl_format = %08Xu%08Xv",
 "[...]",
-"listen = *, ::"
+"listen = *, ::",
 "[...]"
   ]},
   "",
   "If you do not have <strong>CA</strong>, you need to modify <strong>/etc/dovecot/10-auth.conf</strong>:",
   {"code": [
 "[...]",
-"disable_plaintext_auth = no"
+"disable_plaintext_auth = no",
 "[...]"
   ]},
   "Then, simple <strong>pop3 server</strong> is ok.",
