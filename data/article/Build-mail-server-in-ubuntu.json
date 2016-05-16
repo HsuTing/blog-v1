@@ -1,2 +1,52 @@
 [
+  "First, you need to install package:",
+  {"code": [
+"sudo apt-get install postfix dovecot-pop3d"
+  ]},
+  "",
+  "Then, you need to modify <strong>/etc/dovecot/dovecot.conf</strong>:"
+  {"code": [
+"[...]",
+"# Enable installed protocols",
+"!include_try /usr/share/dovecot/protocols.d/*.protocol",
+"protocols = pop3",
+"pop3_uidl_format = %08Xu%08Xv",
+"[...]",
+"listen = *, ::"
+"[...]"
+  ]},
+  "",
+  "If you do not have <strong>CA</strong>, you need to modify <strong>/etc/dovecot/10-auth.conf</strong>:",
+  {"code": [
+"[...]",
+"disable_plaintext_auth = no"
+"[...]"
+  ]},
+  "Then, simple <strong>pop3 server</strong> is ok.",
+  "",
+  "Now, we need to set <strong>smtp server</strong>. You need to add those in<strong>/etc/postfix/main.cf</strong>",
+  {"code": [
+"[...]",
+"myhostname = (your server hostname)",
+"smtpd_sasl_auth_enable = yes",
+"broken_sasl_auth_clients = yes",
+"smtpd_sasl_type = dovecot",
+"smtpd_sasl_path = private/auth",
+"smtpd_sasl_security_options = noanonymous",
+"",
+"smtpd_recipient_restrictions =",
+"    permit_mynetworks,",
+"    permit_sasl_authenticated,",
+"    reject_unauth_destination",
+"",
+"smtpd_tls_auth_only = yes"
+  ]},
+  "And you need to modify <strong>/etc/dovecot/10-master.conf</strong>:",
+  {"code": [
+"[...]",
+"unix_listener /var/spool/postfix/private/auth {",
+"    mode = 0666",
+""}",
+"[...]"
+  ]}
 ]
