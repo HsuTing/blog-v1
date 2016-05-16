@@ -46,7 +46,7 @@
 "[...]",
 "unix_listener /var/spool/postfix/private/auth {",
 "    mode = 0666",
-""}",
+"}",
 "[...]"
   ]}
 ]
